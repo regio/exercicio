@@ -1,0 +1,61 @@
+1. O que é Git ? Qual a sua finalidade ?
+Resp: O Git é uma ferramenta de controle de versionamento.
+
+2. Qual é a vantagem do Git em relação ao SVN ?
+Resp: A vantagem do Git em relação ao SVN é que o modelo de versionamento do Git é descentralizado e o envio
+do arquivo é em duas partes Commit e Push.
+
+3. O que é Maven ? Pra que ele serve ?
+Resp: É uma ferramenta utilizada para automação de tarefas de construção de sistemas que serve para organizar e gerenciar
+as tarefas de projetos de desenvolvimento em Java.
+
+4. Qual a diferença entre Ant e Maven ?
+Resp: O Ant é uma ferramenta de construção de projeto e o Maven é uma ferramente de gerenciamento de projeto.
+
+5. Em qual linguagem o Maven é escrito? (o que é necessário para ele funcionar)
+Resp: O Maven é escrito em Java, pois o mesmo necessita da JVM para funcionar.
+
+6. Qual a sequência de objetivos do Maven? Qual a finalidade de cada objetivo(goal) ?
+Resp:	validate - verifica se projecto está correcto e toda a informação está disponível
+	compile - compila o código fonte
+	test - testa o código fonte compilado
+	package - pega no código compilado e empacota-o num formato que ssse pode partilhar/distribuir, como JAR.
+	integration-test - processa e integra o pacote se necessário num ambiente onde testes de integração possam correr
+	verify - corre verificações para confirmar que o pacote é válido e corresponde aos critérios de qualidade definidos
+	install - instala o pacote no repositório local, para poder ser usado localmente como dependência noutros projectos
+	deploy - copia pacote final para um repositório remoto
+	
+
+7. Através de qual arquivo no maven são definidas dependências e plugins ?
+Resp: No pom.xml
+
+8. Dê 8 exemplos de ferramentas utilizadas para integração contínua, explique a
+função de cada uma delas:
+
+9. O que faz um processo de integração contínua ?
+Resp: O mesmo integra, constroi, testa, versiona e no final realiza o deployment.
+
+10. Qual a diferença do Jenkins para o Hudson ?
+Resp: O Jenkins é OpenSource e o Hudson é proprietário (é da Oracle).
+
+11. O que é Jenkins?
+Resp: É uma ferramente de integração continua.
+
+12. Há possibilidade de ampliar as funcionalidades do Jenkins? como ?
+Resp: Sim, pois no Jenkins podemos definir os plugins que queremos usar.
+
+13. Porque um projeto de software deve utilizar uma ferramenta do tipo Jenkins?
+Resp: Pois é um sistema muito flexivel, altamento configuravel, possui uma comunidade muito ativa, é free, entre outras possibilidades.
+
+14. O que é log4J? para que serve ?
+Resp: É uma biblioteca java, que serve para a geração de logs.
+
+15. Qual a finalidade do arquivo log4j.properties ?
+Resp: Para que possamos utilizar notações para diferentes níveis de logs.
+
+16. Qual padrão de projeto que está atrelado ao uso da ferramenta log4j nas classes
+java ?
+Resp: O uso da ferramenta Log4j está atrelado a um cenário tipico de aplicações distribuidas.
+
+17. Como deve ser incluída dependência da biblioteca log4j em um projeto Java ?
+Resp: Basta incluir a dependência no pom.xml.

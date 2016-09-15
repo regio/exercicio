@@ -1,0 +1,38 @@
+1. O Git é um sistema de controle de versão de arquivos. A finalidade dele é facilitar o desenvolvimento de sistemas, visto que ele controla o versionamento de arquivos, além de facilitar o desenvolvimento de sistemas com vários desenvolvedores.
+
+2. O Git possui um repositório local
+
+3. O maven é uma ferramenta utilizada para automação de tarefas de construção (build) de
+sistemas.
+
+4. O Ant apenas gerencia build, enquanto o Maven gerencia de dependências e build
+
+5. Desenvolvida em Java. É necessário o JDK.
+
+6. Validate: valida se todo o projeto está correto e toda informação necessária para
+sua construção esta disponível.compile: compila o código fonte do projeto
+test: executa os testes unitários do código compilado, usando uma ferramenta de
+testes unitários, como o junit.package: empacota o código compilado de acordo com o empacotamento
+escolhido, por exemplo, em JAR.verify: executa validações relacionadas a testes de integração com o projeto
+gerado.install: instala o pacote no repositório local, para ser usado como dependência de
+outros projetos locais
+deploy – feito em ambiente de integração ou de release, copia o pacote final para
+um repositório remoto para ser compartilhado entre desenvolvedores e projetos
+7. pom.xml
+
+8. SVN e Git: repositórios de código; Jenkins, Hudson e Cruise Control: Sistema de construção contínua; Junit, Cucumber e CppUnit: Frameworks de testes
+
+9. Integra, constrói, testa, arquiva e faz deploy de um projeto
+
+10. O Hudson é mantido pela Oracle (proprietário), enquanto o Jenkins é mantido pela comunidade (open source)
+
+11. É uma ferramenta de integração contínua.
+
+12. Sim, através dos plugins.
+
+13. Para que a equipe consiga detectar bugs rapidamente; um sistema deployavel a qualquer tempo; registro da evolução do projeto
+
+14. É uma biblioteca Java utilizada para geração de logs em aplicações.
+
+15. É o arquivo de configuração do log4j
+

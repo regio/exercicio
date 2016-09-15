@@ -1,0 +1,19 @@
+Respostas:
+
+1) Um repositorio de controle de versão, serve para controlar as versões dos arquivos comitados.
+
+2) Git tem versionamento distribuido e tem branchs, pode trabalhar off-line e com varias equipes.
+
+3) Eh uma ferramenta de automatizaçao de tarefas de build, serve para organizar e gerenciar as tarefas de projetos desenvolvidos em java.
+
+4) No Ant voce precisa criar as tarefas e no Maven as tarefas ja vem pre-definidas e voce utiliza as goals.
+
+5) Em Java.
+
+6) Validate - valida se todo o projeto esta correto e toda informaçao necessaria para sua contruçao esta disponivel.
+	Compile - compila o codigo fonte do projeto
+	Test - executa os testes unitarios do codigo compilado, usando uma ferramenta de testes unitarios, como o junit.
+	Package - empacota o codigo compilado de acordo com o empacotamento escolhido, por exemplo, em JAR.
+	Verify - executa validaçoes relacionadas a testes de integraçao com o projeto gerado.
+	Install - instala o pacote no repositorio local, para ser usado como dependencia de outros projetos locais.
+	Deploy - feito em ambiente de integraçao ou de release, copia o pacote final para um repositorio remoto para ser compartilhado entre desenvolvedores e projetos.

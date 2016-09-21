@@ -1,0 +1,61 @@
+1. O que é o git? Qual a sua finalidade?
+- Git é um sistema de controle de versão que ajuda a manter o histórico de de arquivos.
+
+2. Qual a vantagem do git em relação ao SVN? Explique
+- O git é um controlador de versão distribuído, ou seja, mantém uma cópia do projeto local com todo o histórico de alterações. Por esta razão git se torna mais rápido e eficiente que o SVN, pois mesmo offline é possível manter o versionamento dos arquivos.
+
+3. O que é Maven? Para que ele serve?
+- É uma ferramenta de automação de compilação. Com ela é possível definir dependências e plugins do projeto que será baixado em um cache e utilizado para o build da da aplicação.
+
+4. Qual a diferença entre o Ant e Maven?
+- Com Ant é possível criar uma série de tarefas para o build da aplicação que devem ser especificadas em um arquivo XML. O Maven já possui muitas tarefas pré definidas, sendo mais ágil, além de permitir a definição de dependências do projeto.
+
+5. Em qual linguagem o Maven é escrito? (o que é necessário para ele funcionar?
+- O maven é escrito em java e precisa da SDK para sua execução.
+
+6. Qual a sequência de objetivos do Maven? Qual a finalidade de cada objetivo(goal)?
+- Validate: valida se todo o projeto está correto e toda informação necessária para
+sua construção esta disponível.
+- Compile: compila o código fonte do projeto.
+- Test: executa os testes unitários do código compilado, utilizando outras bibliotecas.
+- Package: empacota o código compilado, gera o JAR, WAR ou outra extensão escolhida.
+- Verify: executa validações relacionadas a testes de integração.
+- Install: instala o pacote no repositório local, para ser usado como dependência de outros projetos locais
+- Deploy – feito em ambiente de integração ou de release, copia o pacote final para
+um repositório remoto para ser compartilhado entre desenvolvedores e projetos
+
+7. Através de qual arquivo no maven são definidas dependências e plugins?
+- pom.xml
+
+8. Dê 8 exemplos de ferramentas utilizadas para integração contínua, explique a função de cada uma delas.
+- TFS e Git: repositórios de código;
+- Jenkins, Hudson e Cruise Control: Sistema de construção contínua; 
+- Junit, Cucumber e Selenium: Frameworks de testes
+
+9. O que faz um processo de integração contínua?
+- Codificação (commit), teste, build. A alteração é feita e commitada, e de forma automatizada, com ferramentas apropriadas, as alterações passam por uma bateria de testes é realizado o build, caso o build seja quebrado é possível detectar a falha rapidamente, e o responsável pode ser notificado para correção.
+
+10. Qual a diferença do Jenkins para o Hudson?
+- O Hudson é mantido pela Oracle e é pago, enquanto o Jenkins é mantido pela comunidade e free.
+
+11. O que é Jenkins?
+- É uma ferramenta de integração contínua, responsável pela automação de build e deploy de projetos.
+
+12. Há possibilidade de ampliar as funcionalidades do Jenkins? como?
+- Sim. Por meio de plugins, que possibilita a integração com outras ferramentas de integração continua.
+
+
+13. Porque um projeto de software deve utilizar uma ferramenta do tipo Jenkins?
+- Uma das funcionalidades do jenkins é a de gerar versões de build, através de jobs. Com isso é possível detectar versões especificas de builds que possuem bugs, bem como as alterações feitas e quem as fez. Além, do build e deploy automatizado, que traz um ganho significativo de tempo e atualização de ambiente.
+
+14. O que é log4J? para que serve?
+- Biblioteca Java de geração de logs em aplicações.
+
+15. Qual a finalidade do arquivo log4j.properties?
+- É o arquivo de configuração do log4j
+
+16. Qual padrão de projeto que está atrelado ao uso da ferramenta log4j nas classes java?
+- Qualquer projeto de software, pois facilita a detecção de erros.
+
+17. Como deve ser incluída dependência da biblioteca log4j em um projeto Java?
+- Incluindo-o como dependência no pom.xml.
